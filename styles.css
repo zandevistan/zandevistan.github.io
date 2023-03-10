@@ -62,7 +62,7 @@ html, body {
     100% { opacity: 1; }
 }
 .marquee p {
-    font-family: myfont3;
+    font-family: myfont2;
     color: rgb(55, 55, 55);
     font-size: 25%;
     position: absolute;
