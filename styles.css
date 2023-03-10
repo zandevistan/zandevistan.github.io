@@ -46,6 +46,17 @@ html, body {
     justify-content: center;
     animation: fadeIn 5s;
 }
+.full-screen-video-content-2 {
+    font-family: myFont;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 100px;
+    margin-top: 5px;
+    line-height: 100%;
+    text-align: center;
+    justify-content: center;
+    animation: fadeIn 5s;
+}
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -55,22 +66,22 @@ html, body {
     color: rgb(55, 55, 55);
     font-size: 25%;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     margin: 0;
     line-height: 100px;
     top: 95%;
     text-align: center;
-    -moz-transform:translateX(100%);
-    -webkit-transform:translateX(100%);	
-    transform:translateX(100%);
+    -moz-transform:translateX(95%);
+    -webkit-transform:translateX(95%);	
+    transform:translateX(95%);
     -moz-animation: scroll-left 10s linear infinite;
     -webkit-animation: scroll-left 10s linear infinite;
     animation: scroll-left 10s linear infinite;
 }
  @-moz-keyframes scroll-left {
-    0%   { -moz-transform: translateX(100%); }
-    100% { -moz-transform: translateX(-100%); }
+    0%   { -moz-transform: translateX(95%); }
+    100% { -moz-transform: translateX(-95%); }
 }
 @keyframes scroll-left {
  0%   { 
